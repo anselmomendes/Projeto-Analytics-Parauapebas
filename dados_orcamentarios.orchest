@@ -1,0 +1,32 @@
+{
+    "name": "dados_orcamentarios",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "14c38398-1da3-4427-b1f2-fe6811be40cd": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": ".",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    324.7885010266941,
+                    337.2659137577002
+                ]
+            },
+            "parameters": {},
+            "title": "",
+            "uuid": "14c38398-1da3-4427-b1f2-fe6811be40cd"
+        }
+    },
+    "uuid": "2ab3cee6-dcb8-48d7-8417-5d28bee74f4a",
+    "version": "1.2.1"
+}
