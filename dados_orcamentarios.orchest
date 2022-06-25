@@ -7,9 +7,9 @@
         "data_passing_memory_size": "1GB"
     },
     "steps": {
-        "14c38398-1da3-4427-b1f2-fe6811be40cd": {
+        "0e073770-19b5-46c3-8686-dacd96afbf1f": {
             "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
-            "file_path": ".",
+            "file_path": "Dados or\u00e7ament\u00e1rios/exercicios.ipynb",
             "incoming_connections": [],
             "kernel": {
                 "display_name": "Python 3",
@@ -18,13 +18,154 @@
             "meta_data": {
                 "hidden": false,
                 "position": [
-                    324.7885010266941,
-                    337.2659137577002
+                    20.00000000000007,
+                    437
                 ]
             },
             "parameters": {},
-            "title": "",
+            "title": "exercicios",
+            "uuid": "0e073770-19b5-46c3-8686-dacd96afbf1f"
+        },
+        "14c38398-1da3-4427-b1f2-fe6811be40cd": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Dados or\u00e7ament\u00e1rios/credor.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20.000000000000107,
+                    80
+                ]
+            },
+            "parameters": {},
+            "title": "credor",
             "uuid": "14c38398-1da3-4427-b1f2-fe6811be40cd"
+        },
+        "3d82730f-f3a0-4d0c-ae05-ad5211f88a22": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Dados or\u00e7ament\u00e1rios/pagamento_despesas_orcamentais.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20.000000000000036,
+                    794
+                ]
+            },
+            "parameters": {},
+            "title": "despesas_orcamentais",
+            "uuid": "3d82730f-f3a0-4d0c-ae05-ad5211f88a22"
+        },
+        "4b710188-4def-4194-a140-e8e8cec9196f": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Dados or\u00e7ament\u00e1rios/elementos despesa.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20.00000000000009,
+                    258.5
+                ]
+            },
+            "parameters": {},
+            "title": "elementos_despesa",
+            "uuid": "4b710188-4def-4194-a140-e8e8cec9196f"
+        },
+        "686972c4-ae0a-485a-9715-e99c2338cbab": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Dados or\u00e7ament\u00e1rios/receita_orcementaria_arrecadada.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20,
+                    1151
+                ]
+            },
+            "parameters": {},
+            "title": "receita_orcamentaria",
+            "uuid": "686972c4-ae0a-485a-9715-e99c2338cbab"
+        },
+        "7232984c-a6e1-46f6-b230-4c46e09ddc6d": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Dados or\u00e7ament\u00e1rios/load_database.ipynb",
+            "incoming_connections": [
+                "14c38398-1da3-4427-b1f2-fe6811be40cd",
+                "4b710188-4def-4194-a140-e8e8cec9196f",
+                "0e073770-19b5-46c3-8686-dacd96afbf1f",
+                "f2150b13-3813-407a-a071-acb353c5ffe1",
+                "3d82730f-f3a0-4d0c-ae05-ad5211f88a22",
+                "7cd1ec6a-0af7-467f-b234-b12ae588f18d",
+                "686972c4-ae0a-485a-9715-e99c2338cbab"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    283.50000000000006,
+                    615.5
+                ]
+            },
+            "parameters": {},
+            "title": "load_databasde",
+            "uuid": "7232984c-a6e1-46f6-b230-4c46e09ddc6d"
+        },
+        "7cd1ec6a-0af7-467f-b234-b12ae588f18d": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Dados or\u00e7ament\u00e1rios/receita_arrecadada_e_prevista.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20.000000000000018,
+                    972.5
+                ]
+            },
+            "parameters": {},
+            "title": "receita_arrecadada",
+            "uuid": "7cd1ec6a-0af7-467f-b234-b12ae588f18d"
+        },
+        "f2150b13-3813-407a-a071-acb353c5ffe1": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Dados or\u00e7ament\u00e1rios/orgaos.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20.000000000000053,
+                    615.5
+                ]
+            },
+            "parameters": {},
+            "title": "orgaos",
+            "uuid": "f2150b13-3813-407a-a071-acb353c5ffe1"
         }
     },
     "uuid": "2ab3cee6-dcb8-48d7-8417-5d28bee74f4a",
