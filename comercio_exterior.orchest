@@ -1,0 +1,73 @@
+{
+    "name": "comercio_exterior",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "384b7bc5-931c-493f-8118-4ae6a57e2a5b": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Comercio Exterior/load_database.ipynb",
+            "incoming_connections": [
+                "b90d1997-68e0-4c25-a1bf-3749db692da5",
+                "e4cc3de3-96f0-492f-a62d-ba9518361840"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    421,
+                    207.5
+                ]
+            },
+            "parameters": {},
+            "title": "load_database",
+            "uuid": "384b7bc5-931c-493f-8118-4ae6a57e2a5b"
+        },
+        "b90d1997-68e0-4c25-a1bf-3749db692da5": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Comercio Exterior/exportacao.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    160,
+                    151.5
+                ]
+            },
+            "parameters": {},
+            "title": "exportacao",
+            "uuid": "b90d1997-68e0-4c25-a1bf-3749db692da5"
+        },
+        "e4cc3de3-96f0-492f-a62d-ba9518361840": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "Comercio Exterior/importacao.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    161,
+                    304.5
+                ]
+            },
+            "parameters": {},
+            "title": "importacao",
+            "uuid": "e4cc3de3-96f0-492f-a62d-ba9518361840"
+        }
+    },
+    "uuid": "5e5a70b7-9d2b-4ea1-ac78-da26acc8d120",
+    "version": "1.2.1"
+}
