@@ -1,0 +1,73 @@
+{
+    "name": "ibge_ppm",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "3988bfc5-ef78-4e6a-b465-208564587eb1": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "IBGE-PPM/PPM_Producao_origem_animal.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    159,
+                    222.5
+                ]
+            },
+            "parameters": {},
+            "title": "producao_origem_animal",
+            "uuid": "3988bfc5-ef78-4e6a-b465-208564587eb1"
+        },
+        "938e1e7e-f055-4224-ac8e-c8cffd810bfa": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "IBGE-PPM/PPM_efetivo_rebanho.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    156,
+                    377.5
+                ]
+            },
+            "parameters": {},
+            "title": "efetivo_rebanho",
+            "uuid": "938e1e7e-f055-4224-ac8e-c8cffd810bfa"
+        },
+        "bec3c69b-6bc1-473a-ad35-8cbab4d72b68": {
+            "environment": "6449305e-5170-4e80-84d9-5e9c3ca98522",
+            "file_path": "IBGE-PPM/load_database.ipynb",
+            "incoming_connections": [
+                "3988bfc5-ef78-4e6a-b465-208564587eb1",
+                "938e1e7e-f055-4224-ac8e-c8cffd810bfa"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    421,
+                    292.5
+                ]
+            },
+            "parameters": {},
+            "title": "load_database",
+            "uuid": "bec3c69b-6bc1-473a-ad35-8cbab4d72b68"
+        }
+    },
+    "uuid": "ad012be0-5c31-43eb-9c16-0089c51f92c3",
+    "version": "1.2.1"
+}
